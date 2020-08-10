@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5519D224E13C5B008E009E /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5519D124E13C5B008E009E /* KakaoOpenSDK.framework */; };
+		DA5519D524E14226008E009E /* KakaoMessageTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5519D424E14226008E009E /* KakaoMessageTemplate.framework */; };
+		DADB86A924E1342C001E1EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB86A824E1342C001E1EF2 /* AppDelegate.swift */; };
+		DADB86AB24E1342C001E1EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB86AA24E1342C001E1EF2 /* SceneDelegate.swift */; };
+		DADB86AD24E1342C001E1EF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB86AC24E1342C001E1EF2 /* ViewController.swift */; };
+		DADB86B024E1342C001E1EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB86AE24E1342C001E1EF2 /* Main.storyboard */; };
+		DADB86B224E1342D001E1EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADB86B124E1342D001E1EF2 /* Assets.xcassets */; };
+		DADB86B524E1342D001E1EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB86B324E1342D001E1EF2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA5519D124E13C5B008E009E /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		DA5519D324E14120008E009E /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KakaoOpenSDK-Bridging-Header.h"; path = "../../../../Downloads/KakaoOpenSDK-1.23.3/samples/swift/KakaoSample/KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA5519D424E14226008E009E /* KakaoMessageTemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoMessageTemplate.framework; sourceTree = "<group>"; };
+		DADB86A524E1342C001E1EF2 /* LoginAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB86A824E1342C001E1EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADB86AA24E1342C001E1EF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DADB86AC24E1342C001E1EF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADB86AF24E1342C001E1EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADB86B124E1342D001E1EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADB86B424E1342D001E1EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADB86B624E1342D001E1EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADB86A224E1342C001E1EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5519D524E14226008E009E /* KakaoMessageTemplate.framework in Frameworks */,
+				DA5519D224E13C5B008E009E /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADB869C24E1342C001E1EF2 = {
+			isa = PBXGroup;
+			children = (
+				DADB86A724E1342C001E1EF2 /* LoginAPI */,
+				DADB86A624E1342C001E1EF2 /* Products */,
+				DADB86BF24E13548001E1EF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DADB86A624E1342C001E1EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADB86A524E1342C001E1EF2 /* LoginAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADB86A724E1342C001E1EF2 /* LoginAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DA5519D324E14120008E009E /* KakaoOpenSDK-Bridging-Header.h */,
+				DADB86A824E1342C001E1EF2 /* AppDelegate.swift */,
+				DADB86AA24E1342C001E1EF2 /* SceneDelegate.swift */,
+				DADB86AC24E1342C001E1EF2 /* ViewController.swift */,
+				DADB86AE24E1342C001E1EF2 /* Main.storyboard */,
+				DADB86B124E1342D001E1EF2 /* Assets.xcassets */,
+				DADB86B324E1342D001E1EF2 /* LaunchScreen.storyboard */,
+				DADB86B624E1342D001E1EF2 /* Info.plist */,
+			);
+			path = LoginAPI;
+			sourceTree = "<group>";
+		};
+		DADB86BF24E13548001E1EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5519D424E14226008E009E /* KakaoMessageTemplate.framework */,
+				DA5519D124E13C5B008E009E /* KakaoOpenSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADB86A424E1342C001E1EF2 /* LoginAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB86B924E1342D001E1EF2 /* Build configuration list for PBXNativeTarget "LoginAPI" */;
+			buildPhases = (
+				DADB86A124E1342C001E1EF2 /* Sources */,
+				DADB86A224E1342C001E1EF2 /* Frameworks */,
+				DADB86A324E1342C001E1EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginAPI;
+			productName = KakaoLoginAPI;
+			productReference = DADB86A524E1342C001E1EF2 /* LoginAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADB869D24E1342C001E1EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = LMJ;
+				TargetAttributes = {
+					DADB86A424E1342C001E1EF2 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DADB86A024E1342C001E1EF2 /* Build configuration list for PBXProject "LoginAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADB869C24E1342C001E1EF2;
+			productRefGroup = DADB86A624E1342C001E1EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADB86A424E1342C001E1EF2 /* LoginAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADB86A324E1342C001E1EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB86B524E1342D001E1EF2 /* LaunchScreen.storyboard in Resources */,
+				DADB86B224E1342D001E1EF2 /* Assets.xcassets in Resources */,
+				DADB86B024E1342C001E1EF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADB86A124E1342C001E1EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB86AD24E1342C001E1EF2 /* ViewController.swift in Sources */,
+				DADB86A924E1342C001E1EF2 /* AppDelegate.swift in Sources */,
+				DADB86AB24E1342C001E1EF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DADB86AE24E1342C001E1EF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB86AF24E1342C001E1EF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADB86B324E1342D001E1EF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB86B424E1342D001E1EF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADB86B724E1342D001E1EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADB86B824E1342D001E1EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADB86BA24E1342D001E1EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LoginAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoginAPI;
+				PRODUCT_NAME = LoginAPI;
+				SWIFT_OBJC_BRIDGING_HEADER = "./LoginAPI/KakaoOpenSDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADB86BB24E1342D001E1EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LoginAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoginAPI;
+				PRODUCT_NAME = LoginAPI;
+				SWIFT_OBJC_BRIDGING_HEADER = "./LoginAPI/KakaoOpenSDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADB86A024E1342C001E1EF2 /* Build configuration list for PBXProject "LoginAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB86B724E1342D001E1EF2 /* Debug */,
+				DADB86B824E1342D001E1EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADB86B924E1342D001E1EF2 /* Build configuration list for PBXNativeTarget "LoginAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB86BA24E1342D001E1EF2 /* Debug */,
+				DADB86BB24E1342D001E1EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADB869D24E1342C001E1EF2 /* Project object */;
+}
